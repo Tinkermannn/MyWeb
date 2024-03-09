@@ -6,7 +6,7 @@ export const TextRevealTW = () => {
   const text = "Selamat Datang di Universitas Indonesia";
 
   return (
-    <h1 className="overflow-hidden pb-3 text-4xl font-bold leading-6 text-black font-medium">
+    <h1 className="overflow-hidden pb-3 text-4xl font-bold leading-6 text-white font-medium">
       {text && text.match(/./gu) && text.match(/./gu).map((char, index) => (
         <span
           className="animate-text-reveal inline-block"
